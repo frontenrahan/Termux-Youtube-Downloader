@@ -103,6 +103,6 @@ rm -f ~/bin/termux-url-opener
 
 Requirements
 
-· Termux
-· Internet connection
-· Storage permission (termux-setup-storage)
+ • Termux
+ • Internet connection
+ • Storage permission (termux-setup-storage)
