@@ -22,6 +22,15 @@ A lightweight YouTube audio/video downloader for Termux with MP4-only format sel
 curl -sSL https://raw.githubusercontent.com/frontenrahan/Termux-Youtube-Downloader/refs/heads/main/install.sh | bash
 ```
 
+## Manual Install
+
+```bash
+git clone https://github.com/frontenrahan/Termux-Youtube-Downloader.git
+cd Termux-Youtube-Downloader
+chmod +x install.sh
+./install.sh
+```
+
 Usage
 
 Share from YouTube App
@@ -40,7 +49,7 @@ termux-url-opener https://youtu.be/VIDEO_ID
 Example Session
 
 ```
-~ $ termux-url-opener https://youtu.be/hc6CE4Rnjjs
+~ $ termux-url-opener https://youtu.be/YOUTUBE_VIDEO_ID
 
 AVAILABLE FORMATS
 ─────────────────
